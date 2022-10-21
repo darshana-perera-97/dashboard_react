@@ -24,7 +24,7 @@ export default function ToPBarLogin() {
             window.alert("Showing the all applications");
           }}
         >
-          <AiTwotoneAppstore style={{ fontSize: "30px", color: "white" }} />
+          <AiTwotoneAppstore style={{ fontSize: "30px", color: "white",opacity:"0.8" }} />
         </button>
         <button
           style={{ background: "none", border: "none" }}
@@ -32,7 +32,7 @@ export default function ToPBarLogin() {
             window.alert("Showing the mails");
           }}
         >
-          <AiFillMail style={{ fontSize: "30px", color: "white" }} />
+          <AiFillMail style={{ fontSize: "30px", color: "white",opacity:"0.8" }} />
         </button>
         <button
           style={{ background: "none", border: "none" }}
@@ -40,7 +40,7 @@ export default function ToPBarLogin() {
             window.alert("Showing the user profile");
           }}
         >
-          <AiOutlineUser style={{ fontSize: "30px", color: "white" }} />
+          <AiOutlineUser style={{ fontSize: "30px", color: "white",opacity:"0.8" }} />
         </button>
       </div>
     </div>
