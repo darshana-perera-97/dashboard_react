@@ -9,9 +9,9 @@ export default function Login() {
   return (
     <div>
       <ToPBarLogin />
-      {/* {!state && <LoginBody funct={setState} />}
-      {state && <DashBoard />} */}
-      <DashBoard />
+      {!state && <LoginBody funct={setState} />}
+      {state && <DashBoard />}
+      {/* <DashBoard /> */}
     </div>
   );
 }

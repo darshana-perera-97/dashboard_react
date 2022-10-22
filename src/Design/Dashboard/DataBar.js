@@ -2,13 +2,13 @@ import React from "react";
 import Charts from "./Charts";
 
 export default function DataBar(prop) {
-  const [t, setT] = React.useState([0,0,0,0,0,0,0,0,0,0,0,0,0,0]);
+  const [t, setT] = React.useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [d, setD] = React.useState([0]);
   setTimeout(() => {
     setT(t.concat(prop.data));
   }, 2000);
   React.useEffect(() => {
-    console.log(t);
+    //console.log(t);
     if (t.length > 13) {
       t.shift();
     }
@@ -22,11 +22,10 @@ export default function DataBar(prop) {
         height: "240px",
         borderRadius: "40px",
         marginLeft: "40px",
-        
       }}
     >
       {t.map((val, key) => {
-        return <Charts data={val} />;
+        return <Charts data={val} key={key} />;
       })}
     </div>
   );

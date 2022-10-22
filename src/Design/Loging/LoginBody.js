@@ -53,6 +53,19 @@ export default function LoginBody(prop) {
         />
         <div style={{ marginTop: "25px" }}>
           <button
+            onClick={() => {
+              if (userName === "" && pswd === "") {
+                window.alert("Username and Password fields cant be empty");
+              } else if (userName === "") {
+                window.alert("Username field cant be empty");
+              } else if (pswd === "") {
+                window.alert("Password field cant be empty");
+              } else {
+                window.alert("Username and Password not matched");
+              }
+              setUserName("");
+              setPswd("");
+            }}
             style={{
               width: "100%",
               padding: "5px",
