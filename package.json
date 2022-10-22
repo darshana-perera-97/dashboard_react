@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@devexpress/dx-react-chart-material-ui": "^3.0.6",
+    "@devexpress/dx-react-core": "^3.0.6",
+    "@devexpress/dx-react-grid": "^3.0.6",
+    "@devexpress/dx-react-grid-material-ui": "^3.0.6",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.10",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +18,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-scripts": "5.0.1",
+    "react-vis": "^1.11.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
